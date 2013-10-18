@@ -22,3 +22,6 @@ Opens the spreadsheet with the given url.
  var ss = SpreadsheetApp.openByUrl(
      "https://spreadsheets.google.com/a/yourdomain.com/ccc?key=abc1234567");
  Logger.log(ss.getName());
+ 
+ Useful Resources
+ http://stackoverflow.com/questions/16128903/google-apps-script-reading-from-private-spreadsheet
