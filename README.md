@@ -12,4 +12,13 @@ and
 https://developers.google.com/apps-script/
 
 
+openByUrl(url)
 
+Opens the spreadsheet with the given url.
+
+ // The code below opens a spreadsheet using its id and logs the name for it.
+ // Note that the spreadsheet is NOT physically opened on the client side.
+ // It is opened on the server only (for modification by the script).
+ var ss = SpreadsheetApp.openByUrl(
+     "https://spreadsheets.google.com/a/yourdomain.com/ccc?key=abc1234567");
+ Logger.log(ss.getName());
